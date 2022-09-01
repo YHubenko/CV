@@ -1,0 +1,203 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+}
+
+div {
+    display: block;
+}
+
+.wrapper .left-block {
+    width: 30%;
+    background: url("../images/левый фон.png") no-repeat;
+    background-size: 100%;
+    margin: 1%;
+    position: relative;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+#avatar {
+    border-radius: 100%;
+    width: 86%;
+    height: 86%;
+    margin: 10% 7%;
+}
+
+.name,
+.position,
+.caption {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.name {
+    font-size: 50px;
+    letter-spacing: 5px;
+    color: #0084c7;
+    margin: 10px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.position {
+    font-size: 35px;
+    margin: 0;
+    letter-spacing: 5px;
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+}
+
+.goal {
+    margin-top: 40px;
+}
+
+.caption,
+.right-caption {
+    font-family: 'Roboto', sans-serif;
+    color: #414142;
+    margin: 0;
+    font-size: 30px;
+}
+
+p,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #636466;
+    font-size: 25px;
+}
+
+.left-block .divider {
+    width: 100%;
+}
+
+.left-block .divider .line {
+    width: 45%;
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    position: relative;
+}
+
+.left-block .divider .rectangle {
+    position: relative;
+    width: 10%;
+    margin: 0;
+    padding: 0;
+    height: 4px;
+    top: 1px;
+}
+
+.name-and-position,
+.goal,
+.contacts,
+.hobbies {
+    padding: 3% 10%;
+    background: url("../images/правый фон.png") no-repeat;
+    background-size: 100%;
+}
+
+.hobbies {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.address-caption,
+.contacts p {
+    text-align: center;
+}
+
+.address-caption {
+    font-weight: bold;
+}
+
+
+.hobby {
+    width: 25%;
+    margin: 10% 12% 0;
+    position: relative;
+    display: inline-block;
+}
+
+.hobby img {
+    width: 70%;
+    margin: 0 15%;
+}
+
+.hobby-name {
+    text-align: center;
+}
+
+.wrapper .right-block {
+    width: 70%;
+    background: url("../images/правый фон.png") no-repeat;
+    background-size: 100%;
+    margin: 1%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.certificates,
+.education,
+.soft-skills {
+    margin: 6% 5%;
+}
+
+.right-caption {
+    text-align: left;
+}
+
+.right-block .divider .rectangle {
+    position: relative;
+    width: 5%;
+    margin: 0;
+    padding: 0;
+    height: 4px;
+    top: 1px;
+}
+
+.right-block .divider .line {
+    width: 95%;
+    margin: 0;
+    padding: 0;
+    height: 2px;
+    position: relative;
+}
+
+.certificate {
+    width: 100%;
+}
+
+.certificate img {
+    width: 44.5%;
+    margin: 2.5%;
+}
+
+.education {
+    width: 90%;
+}
+
+.education-box {
+    margin: 2% 10% 7%;
+    width: 80%;
+}
+
+.education-place,
+.education-time {
+    display: flex;
+    padding: 0;
+}
+
+.education-left {
+    width: 100%;
+    float: left;
+    color: #636466;
+}
+
+.education-right {
+    width: 100%;
+    float: right;
+    color: #636466;
+}
+
+.soft-skills p {
+    margin-left: 10%;
+}
